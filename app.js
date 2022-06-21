@@ -18,4 +18,7 @@ app.get("/belgrano", (req,res) => {res.sendFile(path.join(__dirname, "views","be
 
 app.listen(port, () => {console.log("Servidor corriendo en http://localhost:" + port)});
 
-app.use(express.static("public)"));
+app.use(express.static("public"));
+
+
+//Feliz dia del padre Profes//
